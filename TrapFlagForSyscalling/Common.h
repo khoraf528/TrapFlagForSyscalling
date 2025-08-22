@@ -73,7 +73,6 @@ do {                                                                            
     CONTEXT             ThreadCtx               = { 0 };                                   \
     fnSyscallFunction   pRealSyscallAddress     = NULL;                                    \
     fnSyscallFunction   pDummySyscallAddress    = NULL;                                    \
-    WORD                wSyscallNumber          = 0x00;                                    \
     ULONG_PTR           uArg1                   = GenRandomArg();                          \
     ULONG_PTR           uArg2                   = GenRandomArg();                          \
     ULONG_PTR           uArg3                   = GenRandomArg();                          \
@@ -105,7 +104,6 @@ do {																						\
     CONTEXT				ThreadCtx				= { 0 };									\
     fnSyscallFunction	pRealSyscallAddress		= NULL;										\
     fnSyscallFunction	pDummySyscallAddress	= NULL;										\
-    WORD				wSyscallNumber			= 0x00;										\
                                                                                             \
     ThreadCtx.ContextFlags = CONTEXT_CONTROL;												\
                                                                                             \
@@ -128,3 +126,4 @@ do {																						\
 
 
 #endif // !SYSCALLS_H
+
