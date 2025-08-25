@@ -1,5 +1,7 @@
 ## TrapFlagForSyscalling: Bypass user-land hooks by syscall tampering via the Trap Flag
 
+<br>
+
 ### Quick Links
 
 [Maldev Academy Home](https://maldevacademy.com?ref=gh)
@@ -7,6 +9,8 @@
 [Maldev Academy Syllabus](https://maldevacademy.com/syllabus?ref=gh)
 
 [Maldev Academy Pricing](https://maldevacademy.com/pricing?ref=gh)
+
+<br>
 
 ### What Is The Trap Flag
 
